@@ -14,6 +14,8 @@
     display: flex;
     flex-direction: row;
     margin:10px;
+    margin-right:0px;
+    margin-left: 0px;
     padding-left:20px; 
     padding-right:20px; 
     position:relative;
@@ -47,6 +49,7 @@
 
 .body > .banner{ 
     min-height: 480px;
+    margin:0px;
     margin-top: -80px;
     padding-left: 50px;
     padding-right: 50px;
@@ -77,18 +80,19 @@
 
 .body > .banner > .right > img{
     width: 600px;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-right: 50px;
     margin-bottom: -2.6px;
 }
 
 .btn-img{
     transition: all 150ms;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .btn-img:hover{
-    transform: translateY(-5px);
+    transform: translateY(2px);
 }
 
 .anim-slideInX{
@@ -101,17 +105,21 @@
     100% {transform: translateX(0px);}
 }
 
+/* .sheet{
+    padding-left:10px;
+    padding-right:10px;
+} */
 
 .sheet > .slot{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    
     margin-right: 60px;
     margin-left: 60px;
 }
 
 .sheet > .slot > span{
-    margin:50px;
+    margin:40px;
     margin-bottom:10px;
 }
 
@@ -149,6 +157,7 @@
     display: flex;
     flex-direction: column;
     min-height: 300px;
+    margin:0px;
     margin-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
