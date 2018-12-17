@@ -48,7 +48,7 @@
 }
 
 .body > .banner{ 
-    min-height: 480px;
+    min-height: 500px;
     margin:0px;
     margin-top: -80px;
     padding-left: 50px;
@@ -179,7 +179,51 @@
 
 .footer{
     min-height: 350px;
+    margin:80px;
+    padding-right:60px;
+    padding-left:60px;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.input-flat{
+    padding: 10px;
+    border: 1.5px solid #955ADB;
+    color: #955ADB;
+    border-radius: 15px;
+    width:300px;
+    height:25px;
+    /* box-shadow:
+      inset 0 0 4px  rgba(0,0,0,0.1),
+            0 0 8px rgba(0,0,0,0.1); */
+    /*background: rgba(228, 228, 228, 0.2);*/
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+  }
+
+  .input-flat-area{
+    padding: 10px;
+    border: 1.5px solid #955ADB;
+    color: #955ADB;
+    border-radius: 15px;
+    width:300px;
+    /* box-shadow:
+      inset 0 0 4px  rgba(0,0,0,0.1),
+            0 0 8px rgba(0,0,0,0.1); */
+    /*background: rgba(228, 228, 228, 0.2);*/
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+  }
+
+  .footer > .left > h2{
+    font-size: 32px;
+    color:#654FB1;
+}
+
 /* Webkit-Scrolling */
 
 ::-webkit-scrollbar {
