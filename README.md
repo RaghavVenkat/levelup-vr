@@ -8,3 +8,5 @@ A clean and simple landing page for a VR product.
 
   - Built with pure HTML and CSS
   - This is not a resposive design.
+
+[Live Preview](https://levelupvr.herokuapp.com/)  |  [Git Repo](https://github.com/RaghavVenkat/levelup-vr)
