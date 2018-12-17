@@ -11,4 +11,4 @@ A clean and simple landing page for a VR product.
 
 [Live Preview](https://levelupvr.herokuapp.com/)  |  [Git Repo](https://github.com/RaghavVenkat/levelup-vr)
 
-Feel free to use this template without receiving any copyrights claim as long as you provide a fair credit for the original designer - [Saikrishna SK](https://www.behance.net/saikrishna)
+Feel free to use this template. It would be really greate if you provide a fair credit for the original designer - [Saikrishna SK](https://www.behance.net/saikrishna)
