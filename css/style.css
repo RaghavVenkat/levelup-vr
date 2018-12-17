@@ -179,11 +179,17 @@
 
 .footer{
     min-height: 350px;
-    margin:80px;
-    padding-right:60px;
-    padding-left:60px;
+    color:#654FB1;
+    margin:40px;
+    padding-right:50px;
+    padding-left:50px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom:80px;
+}
+
+.footer > .right > p{
+    font-weight: bold;
 }
 
 .input-flat{
@@ -219,11 +225,49 @@
     letter-spacing: 2.5px;
   }
 
+  
+.flat-btn{
+    padding: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width:330px;
+    height:45px;
+    /* box-shadow:
+      inset 0 0 4px  rgba(0,0,0,0.1),
+            0 0 8px rgba(0,0,0,0.1); */
+    /*background: rgba(228, 228, 228, 0.2);*/
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    background: linear-gradient(to top, #5d45a7 0%,#534cb5 36%,#c861e8 93%);
+    transition: 205ms;
+    cursor: pointer;
+  }
+
+  .flat-btn:hover{
+    transform: translateY(2px)
+  }
+
+
   .footer > .left > h2{
     font-size: 32px;
-    color:#654FB1;
 }
 
+.footer > .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lift{
+    transition: 350ms;
+    margin:2px;
+}
+
+.lift:hover{
+    transform: translateY(-6px);
+}
 /* Webkit-Scrolling */
 
 ::-webkit-scrollbar {
@@ -244,3 +288,4 @@
   ::-webkit-scrollbar-thumb:hover {
     background: rgba(81, 78, 153, 0.836); 
   }
+  
