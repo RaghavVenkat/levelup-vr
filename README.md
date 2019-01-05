@@ -7,7 +7,7 @@ A clean and simple landing page for a VR product.
 > Original design by [Sai krishna](https://www.behance.net/gallery/73522819/Landing-page-for-VR-app-levelupvr)
 
   - Built with pure HTML and CSS
-  - This is not a resposive design.
+  - This is not a responsive design.
 
 [Live Preview](https://levelupvr.herokuapp.com/)  |  [Git Repo](https://github.com/RaghavVenkat/levelup-vr)
 
